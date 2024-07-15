@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Lexend", sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        main {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .carros > h1 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-size: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+
+        .orangep {
+            background-color: #ff2a00;
+            width: 300px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .others {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .others > p {
+            width: 200px;
+        }
+
+        .others > img {
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        /*TEC*/
+
+        
+
+        .tec > h1 {
+            font-family: "Share Tech Mono", monospace;
+            font-weight: bold;
+            color: #191970;
+            font-size: 2rem;
+        }
+
+        .violetp {
+            background-color: #bc5cbc;
+            width: 300px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /*Series*/
+
+
+
+        .series > h1 {
+            font-family: "Anton SC", sans-serif;
+            font-weight: bold;
+            color: #a52a2a;
+            font-size: 2rem;
+        }
+
+        .goldentext {
+            background-color: #daa520;
+            width: 300px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            border-top: solid 1.5px #808080;
+            padding-top: 20px;
+        }
+
+        .text {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="carros container">
+            <h1>CARROS</h1>
+            <img src="https://picsum.photos/300/200" alt="#">
+            <p class="orangep text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta consequuntur, voluptates in
+                ducimus ad eaque iste cum ea praesentium incidunt illum dolorem beatae quod enim at sit molestiae
+                quo.
+            </p>
+
+            <div class="others">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+
+            <div class="others row">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+        </section>
+
+        <section class="tec container">
+            <h1>TILT</h1>
+            
+                <img src="https://picsum.photos/300/200" alt="#">
+                <p class="violetp text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta consequuntur, voluptates in
+                    ducimus ad eaque iste cum ea praesentium incidunt illum dolorem beatae quod enim at sit molestiae
+                    quo.
+                </p>
+            
+            <div class="others">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="others row">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+        </section>
+
+        <section class="series container">
+            <h1>SÉRIES</h1>
+            
+                <img src="https://picsum.photos/300/200" alt="#">
+                <p class="goldentext text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta consequuntur, voluptates in
+                    ducimus ad eaque iste cum ea praesentium incidunt illum dolorem beatae quod enim at sit molestiae
+                    quo.
+                </p>
+            
+            <div class="others">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="others row">
+                <img src="https://picsum.photos/100/100" alt="#">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

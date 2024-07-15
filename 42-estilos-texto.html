@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Texto</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .texto_Sublinhado {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        .texto_Negrito {
+            font-weight: bolder;
+        }
+
+        .texto_Italico {
+            font-style: italic;
+        }
+
+        .texto_com_Sombra {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 10px 6px 5px rgba(0, 0, 0, 0.401);
+            font-size: 10rem;
+        }
+
+        .texto_Degrade {
+            font-size: 5rem;
+            font-weight: 900;
+            background: #121FCF;
+            background: linear-gradient(to right, #121FCF 0%, #D4A5FF 15%, #CF1512 37%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Texto sublinhado</h1>
+    <p class="texto_Sublinhado">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit esse nisi soluta ipsa
+        numquam hic molestiae explicabo veritatis quo, molestias dolor doloribus autem dolores modi distinctio suscipit
+        optio error nihil?</p>
+
+    <h1>Texto Negrito</h1>
+    <p class="texto_Negrito">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam harum dolorem corrupti
+        quos sequi id rerum illo debitis, praesentium culpa nemo ipsam explicabo nobis delectus eos distinctio
+        doloribus, repellendus vitae?</p>
+
+    <h1>Texto Italico</h1>
+    <p class="texto_Italico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea natus, doloremque qui
+        sequi iusto, laborum cum repellat rem in odio. Aspernatur, aperiam! Reprehenderit vitae cupiditate amet sed
+        nobis excepturi!</p>
+
+    <h1>Texto com Sombra</h1>
+    <p class="texto_com_Sombra">Lorem ipsum.</p>
+
+    <h1>Texto em degrade</h1>
+    <p class="texto_Degrade">Lorem Ipsum.</p>
+
+</body>
+
+</html>

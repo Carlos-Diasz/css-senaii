@@ -1,0 +1,20 @@
+AVALIAÇÃO SOMATIVA - CSS (PRÁTICA)
+======================================================================================================
+
+PONTUAÇÃO: 2 de 6
+DESENVOLVIMENTO: Desenvolver uma réplica da landing page Alignable:
+	- https://www.alignable.com/ (Link disponível na pasta)
+
+SALVAR O ARQUIVO HTML COM O NOME: index.html
+SALVAR O ARQUIVO CSS, DENTRO DA PASTA css, COM O NOME: estilos.css
+
+OBS: Não será necessário desenvolver as seções: de avaliação (estrelas) e Frequently Asked Questions.
+
+QUESITOS AVALIADOS:
+	- UTILIZAR CSS EXTERNO
+	- APLICAR RECURSOS DE FLEXBOX LAYOUT
+	- ENTREGA
+
+
+
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+    color: orange;
+}
+.textburlywood{
+    color: burlywood;
+}
+.textblue{
+    color: blue;
+}
+.textpurple {
+    color: purple;
+}
+.textyellow {
+    color: yellow;
+}
+.textgreen {
+    color: green;
+}
+
+.backblue {
+    background-color: blue;
+}
+.backblack {
+    background-color: black;
+    color: white;
+}
+

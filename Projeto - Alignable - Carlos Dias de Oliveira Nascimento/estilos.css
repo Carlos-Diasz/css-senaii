@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.ul_Main {
+    display: flex;
+}
+
+.li_Main {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.li_Main:hover {
+    font-weight: bold;
+}
+
+.li_Main>a {
+    color: #1F293D;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.white_Button {
+    padding: 13px 20px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #391590;
+    border: solid 1px #391590;
+}
+
+.white_Button:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.blue_Button {
+    padding: 13px 20px;
+    background-color: #391590;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: #f9f9fb;
+    border: solid 1px #391590;
+    margin-left: 16px;
+}
+
+.blue_Button:hover {
+    background-color: #220b57;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulos {
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulos>h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.titulos>h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.form_Main {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email_Adress {
+    width: 360px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #888;
+    height: 70px;
+    border-radius: 15px;
+    border: solid 2px #9e9e9e;
+}
+
+
+
+.submit {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #11A761;
+    border: #11A761;
+}
+
+.submit:hover {
+    background-color: #095431;
+}
+
+.globo {
+    background-color: #5A00B6;
+    padding: 50px;
+    border-bottom: solid #FFF 2px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.image {
+    padding: 50px;
+    margin: 0px 80px;
+}
+
+.all_Blocks {
+    width: 800px;
+}
+
+.all_Blocks>h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 90px;
+}
+
+.two_Blocks {
+    display: flex;
+}
+
+.block {
+    border-left: solid #ffffff 2px;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+    background-color: #5A00B6;
+    padding: 80px;
+}
+
+.clientes>img {
+    margin: 0px 50px;
+}
+
+.razoes_Conectar {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow_Network {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    width: 500px;
+    margin-right: 120px;
+}
+
+.text {
+    width: 500px;
+    margin-left: 120px;
+}
+
+.text > h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text > h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.text > p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.text > a {
+    background-color: #6C33D8;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #374151;
+}
+
+.footer_Block {
+    width: 1000px;
+}
+
+.footer_Logo {
+    margin-right: 30px;
+}
+
+li {
+    list-style: none;
+}
+.li_Footer > a {
+    color: #ffffff;
+    font-weight: bold;
+}
+.li_Footer {
+    margin-bottom: 10px;
+}
+
+.rodape {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.form_Footer > p {
+    width: 500px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#footer_Adress {
+    margin-top: 15px;
+    padding: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px #9e9e9e;
+}
+
+.footer_Button {
+    padding: 18px 20px;
+    background-color: #391590;
+    font-weight: bold;
+    border: solid #391590 2px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.copiryght {
+    background-color: #4B5563;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copiryght > h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.ul_Footer2 {
+    display: flex;
+}
+
+.li_Footer2  {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.li_Footer2 > a {
+    color: #ffffff;
+}
